@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+a:-webkit-any-link {
+  color: #171a20;
+  text-decoration: none;
+}
+.tesla-container {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.tesla-style {
+  padding-left: 40;
+  /* padding-top: 20; */
+  width: 120px;
+}
+
+.main-container {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 500;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.header-1 {
+  /* padding-top: 20px; */
+  padding-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  padding-right: 30px;
+  /* padding-top: 20px; */
+}
+.section-container {
+  text-align: center;
+  margin: 0 auto;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  height: 91.5vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.section-container .upper_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.heading_text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+.link {
+  border: 0;
+  box-shadow: 0 1px 0 0 currentColor;
+  color: #171a20;
+  cursor: pointer;
+  font-family: "Gotham SSm";
+  padding: 0;
+  position: relative;
+  text-align: initial;
+  text-decoration: none;
+}
+.link:hover {
+  box-shadow: 0 2px 0 0 currentColor;
+}
+
+.under-model3 {
+  font-size: 17px;
+  margin-bottom: 10%;
+  padding-bottom: 30%;
+  /* padding-left: 40%; */
+}
+.customer-order {
+  margin-right: 20px;
+}
+.model-center {
+  margin-top: 40px;
+  font-size: 40px;
+}
+.model-s {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.lower_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.btn,
+.btn_white {
+  border-radius: 32px;
+  padding: 10px 60px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  text-align: center;
+  border: 3px solid transparent;
+  background-color: rgba(23, 26, 32, 0.8);
+  color: #fff;
+  margin-right: 41px;
+  text-transform: uppercase;
+  font-family: "Gotham SSm";
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.btn_white {
+  background-color: rgba(244, 244, 244, 0.65);
+  color: #171a20;
+}
